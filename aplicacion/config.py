@@ -19,7 +19,7 @@ class TestingConfig(Config):
     """
     Testing configurations
     """
-    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://entrevista:entrevista@38.7.201.111/colegio_entrevista'
+    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:password@mysql/colegio_entrevista'
     TESTING = True
 
 class ProductionConfig(Config):
